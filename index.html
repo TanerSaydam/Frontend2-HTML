@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <form autocomplete="off">
+        <label for="name">Adı</label>
+        <br>
+        <input autocomplete="off" type="text" id="name"  minlength="3" required>
+        <br>        
+        <label for="lastName">Soyadı</label>
+        <br>
+        <input required minlength="3" type="text" id="lastName">
+        <br>
+        <label for="profession">Meslek</label>
+        <br>
+        <select required>
+            <option id="0">Seçim yapınız...</option>
+            <option id="1">Muhasebe</option>
+            <option id="2">Yazılım</option>
+            <option id="3">Sekreter</option>
+        </select>        
+        <br>
+        <label for="salary">Maaş</label>
+        <br>
+        <input min="8506" type="number" max="30000" id="salary" required>
+        <br>        
+        <br>
+        <button type="submit">Kaydet</button>
+        <button type="button">Vazgeç</button>        
+    </form>
+    <hr>
+    <!-- Bu bir kullanıcı listesidir -->
+    <table>
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Adı</th> 
+                <th>Soyadı</th> 
+                <th>Mesleği</th> 
+                <th>Maaşı</th>
+                <th>İşlemler</th> 
+             </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Taner</td>
+                <td>Saydam</td>
+                <td>Yazılım Eğitmeni</td>
+                <td>10.000 ₺</td>
+                <td>
+    
+                </td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Serap</td>
+                <td>Erkan</td>
+                <td>CEO</td>
+                <td>15.000 ₺</td>
+                <td>
+    
+                </td>
+            </tr>
+        </tbody> 
+    </table>
+    <!-- Bu bir kullanıcı listesidir -->   
+</body>
+</html>
